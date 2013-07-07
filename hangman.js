@@ -110,6 +110,7 @@ $(document).ready(function(){
 			search_start = 0;
 			$("#guessesLeft").html(guessesLeft);
 			ct.clearRect(0,0,c.width,c.height);
+            ct.beginPath();
 			//clearC = true;
 			//console.log(clearC);
 	});
